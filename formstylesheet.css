@@ -1,0 +1,21 @@
+input[type=text]
+{
+  width : 35%;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border : 2px solid #99A3A4;
+  border-radius: 5px;
+  color: black;
+}
+input[type=text]:focus{
+  background-color: #29B6F6;
+}
+p{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Garamond;
+}
