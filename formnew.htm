@@ -1,0 +1,57 @@
+<! DOCTYPE html>
+<html>
+<head>
+<title> Form layout
+</title>
+<link rel="stylesheet" type="text/css" href="formstylesheet1.css">
+  <style>
+  .dropmenu{
+    position: relative;
+    display:inline-block;
+  }
+  .content{
+    background-color: #82E0AA;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Garamond;
+      padding: 12px 16px;
+      z-index: 1;
+      position: absolute;
+      display:none;
+  }
+
+.dropmenu:hover .content{
+    display: block;
+}
+  </style>
+</head>
+<body>
+<form>
+<p>First name:</p>
+  <input type="text" name="firstname"><br>
+  <p>Last name:</p>
+  <input type="text" name="lastname"><br>
+  <p>Middle name:</p>
+  <input type="text" name="middlename"><br>
+  <div class="dropmenu">
+    <span>Gender:</span>
+    <div class="content">
+  <input type="radio" name="gender" value="male" checked> <p>Male</n></p>
+  <input type="radio" name="gender" value="female"> <p>Female</n></p>
+  <input type="radio" name="gender" value="other"> <p>Other</p>
+</div>
+</div>
+  <p>Phone number(personnal)</p><br>
+  <input type="text" name="phonenumber"><br>
+  <p>Phone number (home)</p><br>
+  <input type="text" name="phonenumber1"><br>
+  <p>Email-ID</p><br>
+  <input type="text" name="emailid"><br>
+  <p>Date of Birth</p><br>
+  <input type="text" name="dateofbirth"><br>
+  <input text
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
